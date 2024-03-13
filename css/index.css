@@ -1,3 +1,43 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
  html{
     background-color: lightgray;
  }
+
+ header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 10%;
+   background-color: rgb(150, 149, 149);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+   
+ }
+
+ header img{
+  width: 4.5vh;
+ }
+ 
+
+header nav a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+ header .logo {
+  font-family: Calibri; 
+  font-size: 3vh;
+  
+}
+header a{
+  text-decoration: none;
+}
