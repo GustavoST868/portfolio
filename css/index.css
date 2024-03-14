@@ -1,96 +1,125 @@
- *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
- html{
-    background-color: lightgray;
- }
+html,body {
+  height: 100%;
+}
 
- body{
-  color: black;
- }
+html {
+  background-color: lightgray;
+}
 
- header{
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   padding: 20px 10%;
-   background-color: rgb(150, 149, 149);
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   z-index: 100;
-   
- }
+body {
+  display: flex;
+  flex-direction: row;
+}
 
- header img{
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background-color: rgb(150, 149, 149);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+header img {
   width: 4.5vh;
- }
+}
 
-header nav a{
+header nav a {
   padding: 7px;
   text-decoration: none;
   font-size: 2.2vh;
 }
 
- header .logo {
-  font-family: Calibri; 
+header .logo {
+  font-family: Calibri;
   font-size: 3vh;
 }
-header a{
+
+header a {
   text-decoration: none;
 }
 
-header nav a:hover{
+header nav a:hover {
   color: blue;
 }
 
-.home{
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  padding: 0 10%;
+.square-one,
+.square-two {
+  
+  width: 50%;
+  height: 100%;
 }
 
-.home-content{
-  max-width: 600px;
-}
-
-.home-content h1{
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 1.2;
-}
-
-.home-content p{
-  font-size: 16px;
-  margin: 20px 0 40px;
-}
-
-
-.bnt-box a{
-
-  position: relative;
-  display: inline-flex;
+.square-one {
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 8px;
-  font-size: 19px;
-  color:black;
-  text-decoration: none;
-  font-weight: 600px;
-  letter-spacing: 1px;
+  padding: 20vh;
+  background-color: aqua;
 }
 
-.bnt-box :nth-child(1){
-  background: transparent;
-  color:  rgb(0, 0, 0);
+.square-two {
+  background-color: red;
 }
 
+.square-one h1{
+  
+  padding:20px 0;
+  margin-top: 100px;
+}
+
+.square-one p{
+  font-size: 20px;
+}
+
+.square-one a{
+  color: black;
+  padding: 10px 0;
+}
+
+.square-one .icons i{
+  columns: black;
+  padding:20px 0;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+@media screen and (max-width: 1550px) {
+  body {
+    flex-direction: column; /* Alterando para empilhar uma abaixo da outra quando a tela for reduzida */
+  }
+
+  .square-one,
+  .square-two {
+    width: 100%; /* Reduzindo a largura para 90% da tela para dar um pouco de margem nas laterais */
+    margin: 0 auto 20px; /* Adicionando margem automática nas laterais e margem inferior para espaçar as divs */
+  }
+
+  header {
+    padding: 10px; /* Reduzindo o padding do cabeçalho para economizar espaço na tela */
+  }
+
+  header img {
+    width: 40px; /* Reduzindo o tamanho da imagem do cabeçalho */
+  }
+
+  header .logo {
+    font-size: 2.5vh; /* Reduzindo o tamanho da fonte do cabeçalho */
+  }
+
+  header nav a {
+    font-size: 1.8vh; /* Reduzindo o tamanho da fonte dos links do cabeçalho */
+  }
+}
