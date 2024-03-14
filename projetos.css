@@ -11,3 +11,11 @@ html,body {
 html {
   background-color: lightgray;
 }
+
+header{
+  text-align: center;
+  padding: 10px;
+  height: 6vh;
+  width: 100%;
+  background-color: rgb(150, 149, 149);
+}
