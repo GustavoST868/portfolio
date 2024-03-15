@@ -92,6 +92,10 @@ header {
 .square{
   height: 30vh;
 }
+
+header{
+  height: 8vh;
+}
 }
 
 .container .square h1:hover{
