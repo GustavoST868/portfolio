@@ -67,3 +67,7 @@ html {
     width: 40vh;
   }
 }
+
+.container .square h1:hover{
+  color: blue;
+}

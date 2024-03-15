@@ -165,5 +165,9 @@ header nav a:hover {
 }
 
 .square-two span {
-  margin-top: 20px; /* Ajuste o espaçamento entre a imagem e o texto */
+  margin-top: 20px; 
+}
+
+.square-two span:hover{
+  color: blue;
 }
