@@ -1,6 +1,69 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+html {
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.square {
+  padding: 40px;
+  padding-bottom: 5px;
+  transform: scale(1);
+  width: 50vh;
+  height: 60vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.square:hover{
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+.square h1{
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.square h6{
+  font-size: 25px;
+}
+
+.square .languagens{
+  margin-bottom: 3vh;
+}
+
+.square .databases{
+  margin-bottom: 3vh;
+}
+
+@media screen and (max-width: 600px) {
+  .square {
+    width: 40vh;
   }
-  
+}
