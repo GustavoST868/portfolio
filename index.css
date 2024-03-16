@@ -61,6 +61,7 @@ header nav a:hover {
 }
 
 .square-one {
+  animation: animation_square 3s;
   justify-content: center;
   align-items: center;
   padding: 20vh;
@@ -108,6 +109,7 @@ header nav a:hover {
 }
 
 .square-two {
+  animation: animation_square 2.5s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +152,6 @@ header nav a:hover {
   
   }
   
-
   header .logo {
     font-size: 2.5vh; 
   }
@@ -170,4 +171,14 @@ header nav a:hover {
 
 .square-two span:hover{
   color: blue;
+}
+
+@keyframes animation_square {
+  0%{
+    opacity: 0%;
+  }
+
+  100%{
+    opacity: 100%;
+  }
 }

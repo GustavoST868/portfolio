@@ -28,8 +28,8 @@ html {
   align-items: center; 
 }
 
-
 .square {
+  animation: animation_square 2.5s;
   padding: 40px;
   padding-bottom: 5px;
   transform: scale(1);
@@ -45,6 +45,18 @@ html {
   transform: scale(1.03);
 }
 
+.square p{
+  font-size: 20px;
+}
+
+.square h5{
+  font-size: 20px;
+}
+
+.square h5:hover{
+  color: blueviolet;
+}
+
 .square h1{
   text-align: center;
   margin-bottom: 3vh;
@@ -52,7 +64,9 @@ html {
 
 .square h6{
   font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 .square .languagens{
   margin-bottom: 3vh;
@@ -71,4 +85,15 @@ html {
 
 .container .square h1:hover{
   color: blue;
+}
+
+
+@keyframes animation_square {
+  0%{
+    opacity: 0%;
+  }
+
+  100%{
+    opacity: 100%;
+  }
 }
