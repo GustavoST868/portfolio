@@ -76,7 +76,6 @@ header {
   text-decoration: none;
 }
 
-
 .container .square {
   margin: 50px; 
 }
@@ -100,13 +99,11 @@ header {
 header{
   height: 8vh;
 }
-
 }
 
 .container .square h1:hover{
   color: blue;
 }
-
 
 @keyframes animation_square {
   0%{

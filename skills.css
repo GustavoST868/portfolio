@@ -67,7 +67,6 @@ html {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
 .square .languagens{
   margin-bottom: 3vh;
 }
@@ -86,7 +85,6 @@ html {
 .container .square h1:hover{
   color: blue;
 }
-
 
 @keyframes animation_square {
   0%{
