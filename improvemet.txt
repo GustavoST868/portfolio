@@ -1,3 +1,5 @@
 Melhorias:
 Buscar novas melhorias para o site na internet.
-Colocar mais coisas na pagina de skills
+Testar diferentes fontes.
+Colocar as skills e competencia alinhadas ao linkedin.
+
