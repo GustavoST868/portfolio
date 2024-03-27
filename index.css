@@ -65,7 +65,7 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   padding: 20vh;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(245, 244, 244);
 }
 
 .square-two {
@@ -114,6 +114,7 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column; 
+  background-color: rgb(245, 244, 244);
 }
 
 .square-two img {

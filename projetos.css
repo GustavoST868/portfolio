@@ -18,38 +18,23 @@ html {
   background-color: rgb(255, 255, 255);
 }
 
-header h1{
-  font-size: 20px;
-  align-items: center;
-}
-
-header h1:hover{
-  color: blue;
-}
-
-header {
-  left: 0;
-  top: 0;
-  position: absolute;
-  text-align: center;
-  padding: 10px;
-  height: 6vh;
-  width: 100%;
-  background-color: rgb(150, 149, 149);
-}
-
 .square {
   animation: animation_square 2.5s;
   padding: 10px;
-  padding-bottom: 5px;
+  padding-bottom: -10vh;
   transform: scale(1);
   margin-top: -10vh;
-  margin-bottom: -10vh;
+  margin-bottom: -9vh;
   width: 40vh;
-  height: 20vh;
+  height: 17vh;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+
+.final{
+  width: 0vh;
+  height: 0vh;
 }
 
 .square:hover {
@@ -58,7 +43,7 @@ header {
 }
 
 .container {
-  margin-top: 10vh;
+  margin-top: 0vh;
   width: 100%;
   height: 100%;
   display: flex;
@@ -75,6 +60,7 @@ header {
 .square a {
   text-decoration: none;
 }
+
 
 .container .square {
   margin: 50px; 
@@ -93,7 +79,17 @@ header {
 
 @media screen and (max-width: 600px) {
 .square{
-  height: 30vh;
+  height: 25vh;
+  margin-bottom: 1vh;
+}
+
+.final{
+  width: 40vh;
+  height: 17vh;
+}
+
+.square h1{
+  font-size: 15px;
 }
 
 header{
