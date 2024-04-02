@@ -82,6 +82,15 @@ html {
   }
 }
 
+.square h6{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.square h5{
+  font-size: 15px;
+}
+
 .container .square h1:hover{
   color: blue;
 }
