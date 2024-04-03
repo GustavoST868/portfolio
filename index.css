@@ -4,8 +4,17 @@
   box-sizing: border-box;
 }
 
-html,body {
+html, body {
   height: 100%;
+}
+
+body video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
 }
 
 html {
@@ -55,7 +64,6 @@ header nav a:hover {
 
 .square-one,
 .square-two {
-  
   width: 50%;
   height: 100%;
 }
@@ -72,37 +80,37 @@ header nav a:hover {
   background-color: rgb(255, 255, 255);
 }
 
-.square-one h1{
-  padding:20px 0;
+.square-one h1 {
+  padding: 20px 0;
   margin-top: 100px;
 }
 
-.square-one h1:hover{
+.square-one h1:hover {
   color: rgb(2, 2, 192);
 }
 
-.square-one p{
+.square-one p {
   transform: scale(1);
   text-align: left;
   font-size: 20px;
 }
 
-.square-one p:hover{
+.square-one p:hover {
   color: rgb(2, 2, 192);
 }
 
-.square-one a{
+.square-one a {
   color: black;
   padding: 10px 0;
 }
 
-.square-one a:hover{
+.square-one a:hover {
   color: blue;
 }
 
-.square-one .icons i{
+.square-one .icons i {
   columns: black;
-  padding:20px 0;
+  padding: 20px 0;
   font-size: 50px;
   width: 50px;
   height: 50px;
@@ -113,7 +121,7 @@ header nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
   background-color: rgb(245, 244, 244);
 }
 
@@ -128,58 +136,59 @@ header nav a:hover {
 }
 
 .square-two img:hover {
-  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5); 
-  transform: scale(1.05); 
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 1300px) {
   body {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .square-one,
   .square-two {
-    width: 100%; 
-    margin: 0 auto 20px; 
+    width: 100%;
+    margin: 0 auto 20px;
     padding: 20px;
   }
 
   header {
-    padding: 10px; 
+    padding: 10px;
   }
 
-  .square-two img{
+  .square-two img {
     margin-top: 5vh;
-  
-  }
-  
-  header .logo {
-    font-size: 2.5vh; 
+    width: 250px;
+    height: 300px;
   }
 
-  .square-one h1{
+  header .logo {
+    font-size: 2.5vh;
+  }
+
+  .square-one h1 {
     font-size: 3.5vh;
   }
 
   header nav a {
-    font-size: 1.8vh; 
+    font-size: 1.8vh;
   }
 }
 
 .square-two span {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
-.square-two span:hover{
+.square-two span:hover {
   color: blue;
 }
 
 @keyframes animation_square {
-  0%{
-    opacity: 0%;
+  0% {
+    opacity: 0;
   }
 
-  100%{
-    opacity: 100%;
+  100% {
+    opacity: 1;
   }
 }

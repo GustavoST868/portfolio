@@ -46,11 +46,11 @@ html {
 }
 
 .square p{
-  font-size: 20px;
+  font-size: 27px;
 }
 
 .square h5{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .square h5:hover{
@@ -63,7 +63,7 @@ html {
 }
 
 .square h6{
-  font-size: 25px;
+  font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -89,6 +89,10 @@ html {
 
 .square h5{
   font-size: 15px;
+}
+
+.square p{
+  font-size: 13px;
 }
 
 .container .square h1:hover{
