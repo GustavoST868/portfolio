@@ -12,8 +12,8 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 html {
@@ -24,8 +24,8 @@ html {
   width: 100%;
   display: flex;
   text-align: center;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .square {
@@ -40,38 +40,38 @@ html {
   transition: box-shadow 0.5s ease, transform 0.5s ease;
 }
 
-.square:hover{
+.square:hover {
   box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
   transform: scale(1.03);
 }
 
-.square p{
+.square p {
   font-size: 27px;
 }
 
-.square h5{
+.square h5 {
   font-size: 30px;
 }
 
-.square h5:hover{
+.square h5:hover {
   color: blueviolet;
 }
 
-.square h1{
+.square h1 {
   text-align: center;
   margin-bottom: 3vh;
 }
 
-.square h6{
+.square h6 {
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.square .languagens{
+.square .languages {
   margin-bottom: 3vh;
 }
 
-.square .databases{
+.square .databases {
   margin-bottom: 3vh;
 }
 
@@ -80,31 +80,32 @@ html {
     width: 40vh;
     height: 70vh;
   }
+
+  .square h6 {
+    font-size: 17px;
+  }
+  
+  .square h5 {
+    font-size: 15px;
+  }
+  
+  .square p {
+    font-size: 13px;
+  }
 }
 
-.square h6{
-  font-size: 17px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
-.square h5{
-  font-size: 15px;
-}
 
-.square p{
-  font-size: 13px;
-}
-
-.container .square h1:hover{
+.container .square h1:hover {
   color: blue;
 }
 
 @keyframes animation_square {
-  0%{
-    opacity: 0%;
+  0% {
+    opacity: 0;
   }
 
-  100%{
-    opacity: 100%;
+  100% {
+    opacity: 1;
   }
 }
