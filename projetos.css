@@ -145,7 +145,7 @@ header nav a:hover {
 
 @media screen and (max-width: 600px) {
 .square{
-  height: 60vh;
+  height: 50vh;
   width: 70vh;
   margin-bottom: 1vh;
 }
