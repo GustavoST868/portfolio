@@ -8,17 +8,19 @@ html, body {
   height: 100%;
 }
 
-body video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  width: 100%;
-  z-index: -1;
+
+.border a{
+  color: #000;
 }
 
 html {
   background-color: lightgray;
+}
+
+.border{
+  background-color:rgb(201, 201, 201);
+  border-radius: 10px;
+  margin-left: 1vh;
 }
 
 body {
@@ -41,6 +43,10 @@ header {
 
 header img {
   width: 4.5vh;
+}
+
+header nav {
+  display: flex;
 }
 
 header nav a {
