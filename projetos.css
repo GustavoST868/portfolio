@@ -149,7 +149,7 @@ header nav a:hover {
 
 @media screen and (max-width: 600px) {
 .square{
-  height: 40vh;
+  height: 55vh;
   width: 58vh;
   margin-bottom: 1vh;
 }
@@ -172,18 +172,6 @@ header{
   color: blue;
 }
 
-
-@media screen and (max-height: 821px) {
-  .square{
-    height: 35vh;
-  }
-}
-
-@media screen and (max-height: 676px) {
-  .square{
-    height: 40vh;
-  }
-}
 
 @keyframes animation_square {
   0%{
