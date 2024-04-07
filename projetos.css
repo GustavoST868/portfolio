@@ -65,9 +65,9 @@ header nav a:hover {
   padding-bottom: -10vh;
   transform: scale(1);
   margin-top: -10vh;
-  margin-bottom: -9vh;
+  margin-bottom: -5vh;
   width: 40vh;
-  height: 23vh;
+  height: 30vh;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s ease, transform 0.5s ease;
@@ -82,11 +82,15 @@ header nav a:hover {
 .link{
   display: flex;
   background-color: rgb(224, 224, 224);
-  height: 27px;
+  height: 35px;
   width: 120px;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+}
+
+.link:hover{
+  background-color: rgb(187, 187, 187);
 }
 
 .link a{
@@ -145,7 +149,7 @@ header nav a:hover {
 
 @media screen and (max-width: 600px) {
 .square{
-  height: 50vh;
+  height: 40vh;
   width: 58vh;
   margin-bottom: 1vh;
 }
@@ -168,6 +172,19 @@ header{
   color: blue;
 }
 
+
+@media screen and (max-height: 821px) {
+  .square{
+    height: 35vh;
+  }
+}
+
+@media screen and (max-height: 676px) {
+  .square{
+    height: 40vh;
+  }
+}
+
 @keyframes animation_square {
   0%{
     opacity: 0%;
@@ -177,3 +194,5 @@ header{
     opacity: 100%;
   }
 }
+
+
