@@ -167,8 +167,8 @@ header nav a:hover {
 
   .square-two img {
     margin-top: 5vh;
-    width: 200px;
-    height: 270px;
+    width: 190px;
+    height: 260px;
   }
 
   header .logo {
@@ -176,7 +176,16 @@ header nav a:hover {
   }
 
   .square-one h1 {
-    font-size: 4vh;
+    font-size: 3vh;
+  }
+
+  .square-one p{
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .square-two{
+    margin-top: 1vh;
   }
 
   header nav a {
