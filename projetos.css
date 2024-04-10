@@ -71,8 +71,8 @@ header nav a:hover {
   transform: scale(1);
   margin-top: -10vh;
   margin-bottom: -5vh;
-  width: 40vh;
-  height: 40vh;
+  width: 30%;
+  height: 40%;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s ease, transform 0.5s ease;
@@ -113,13 +113,14 @@ header nav a:hover {
 }
 
 .container {
-  margin-top: 7vh;
+  margin-top: 9vh;
   width: 100%;
   height: 100%;
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
+  overflow: scroll;
 }
 
 .square h1 {
@@ -157,11 +158,6 @@ header nav a:hover {
   height: 55vh;
   width: 58vh;
   margin-bottom: 1vh;
-}
-
-.final{
-  width: 40vh;
-  height: 17vh;
 }
 
 .square h1{
