@@ -21,7 +21,7 @@ html {
 .border{
   background-color:rgb(255, 255, 255);
   border-radius: 10px;
-  margin-left: 1vh;
+  margin-left: 3vh;
 }
 
 body {
@@ -99,7 +99,7 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   height: 60%;
   width: 90%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -117,6 +117,15 @@ header nav a:hover {
   text-align: center;
 }
 
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 100%;
+  margin-right: 10%;
+}
+
 .text h1{
   font-size: 170%;
 }
@@ -125,7 +134,7 @@ header nav a:hover {
   color: black;
   margin-top: 10%;
   padding-left: 4%;
-  margin-left: 0vh;
+  margin-left: 1vh;
   font-size: 50px;
   width: 40px;
   height: 40px;
@@ -192,8 +201,8 @@ header nav a:hover {
     font-size: 2.5vh;
   }
 
-  .square-one h1 {
-    font-size: 3vh;
+  .text h1 {
+    font-size: 190%;
   }
 
   .text{
