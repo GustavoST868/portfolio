@@ -206,8 +206,9 @@ header nav a:hover {
   }
 
   .text{
-    margin-top: 20vh;
+    margin-top: 14vh;
     height: 70vh;
+    width: 95%;
   }
 
   .square-one p{
