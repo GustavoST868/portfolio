@@ -173,20 +173,24 @@ header nav .border a{
 }
 
 .border{
-  width: 80px;
+  width: 50px;
   height: 25px;
 }
 
 .border a{
-  font-size: 12px;
+  font-size: 8px;
 }
 
 .square h1{
-  font-size: 15px;
+  font-size: 10px;
+}
+
+.square p{
+  font-size: 10px;
 }
 
 header nav .border a{
-  font-size: 12px;
+  font-size: 8px;
 }
 
 header{
