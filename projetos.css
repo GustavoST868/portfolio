@@ -196,6 +196,15 @@ header nav .border a{
 header{
   height: 8vh;
 }
+
+.link a{
+  font-size: 10px;
+}
+
+.link{
+  height: 30px;
+  width: 80px;
+}
 }
 
 .container .square h1:hover{
