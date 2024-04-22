@@ -12,16 +12,22 @@ html, body {
 
 .border a{
   color: #000;
+  font-size: 15px;
 }
 
 html {
   background-color: rgb(255, 255, 255);
 }
 
-.border{
+.border{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color:rgb(255, 255, 255);
   border-radius: 10px;
   margin-left: 3vh;
+  width: 150px;
+  height: 30px;
 }
 
 body {
@@ -99,7 +105,7 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   height: 64%;
   width: 90%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -113,7 +119,7 @@ header nav a:hover {
 
 .text p{
   margin-top: 5%;
-  font-size: 120%;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -123,7 +129,8 @@ header nav a:hover {
   align-items: center;
   background-color: transparent;
   width: 100%;
-  margin-right: 10%;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .text h1{
@@ -183,6 +190,25 @@ header nav a:hover {
     padding: 30px;
   }
 
+  .border{
+    width: 80px;
+    height: 25px;
+  }
+
+  .border a{
+    font-size: 12px;
+  }
+
+  .icons{
+    margin-top: 16px;
+  }
+
+  
+    
+  .square-two span{
+    font-size: 15px;
+  }
+
   header {
     padding: 10px;
   }
@@ -193,8 +219,8 @@ header nav a:hover {
 
   .square-two img {
     margin-top: 5vh;
-    width: 87%;
-    height: 80%;
+    width: 200px;
+    height: 250px;
   }
 
   header .logo {
