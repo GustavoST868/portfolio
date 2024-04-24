@@ -30,22 +30,34 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 
 header img {
   width: 4.5vh;
 }
 
+header nav {
+  display: flex;
+}
+
 header nav a {
   padding: 7px;
-  color: black;
   text-decoration: none;
   font-size: 2.2vh;
 }
 
-header nav {
-  display: flex;
-  
+header .logo {
+  font-family: Calibri;
+  font-size: 3vh;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: blue;
 }
 
 header .logo {
@@ -161,16 +173,20 @@ header nav .border a{
   }
 
   .border{
-    width: 80px;
+    width: 50px;
     height: 25px;
   }
 
-  .border a{
-    font-size: 12px;
+  header nav .border a{
+    font-size: 8px;
+  }
+  
+  header{
+    height: 8vh;
   }
 
-  header nav .border a{
-    font-size: 12px;
+  .border a{
+    font-size: 8px;
   }
 }
 
