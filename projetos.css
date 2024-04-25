@@ -18,7 +18,7 @@ html {
   background-color: rgb(255, 255, 255);
 }
 
-header {
+body header {
   position: absolute;
   top: 0;
   left: 0;
@@ -31,36 +31,36 @@ header {
   z-index: 100;
 }
 
-header img {
+body header img {
   width: 4.5vh;
 }
 
-header nav {
+body header nav {
   display: flex;
 }
 
-header nav a {
+body header nav a {
   padding: 7px;
   text-decoration: none;
   font-size: 2.2vh;
   color: black;
 }
 
-header .logo {
+body header .logo {
   font-family: Calibri;
   font-size: 3vh;
 }
 
-header a {
+body header a {
   text-decoration: none;
  
 }
 
-header nav a:hover {
+body header nav a:hover {
   color: blue;
 }
 
-.square {
+body .container .square {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,23 +79,18 @@ header nav a:hover {
   transition: box-shadow 0.5s ease, transform 0.5s ease;
 }
 
-header nav .border a{
-  font-size: 15px;
-}
-
-.border{ 
+header nav .border{ 
   display: flex;
   align-items: center;
   justify-content: center;
   background-color:rgb(255, 255, 255);
   border-radius: 10px;
   margin-left: 3vh;
-  width: 150px;
+  width: 120px;
   height: 30px;
-  
 }
 
-.link{
+body .container .square .link{
   display: flex;
   background-color: rgb(224, 224, 224);
   height: 35px;
@@ -105,25 +100,20 @@ header nav .border a{
   border-radius: 10px;
 }
 
-.link:hover{
+body .container .square .link:hover{
   background-color: rgb(187, 187, 187);
 }
 
-.link a{
+body .container .square .link a{
   color: black;
 }
 
-.final{
-  width: 40vh;
-  height: 30vh;
-}
-
-.square:hover {
+body .container .square:hover {
   box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
   transform: scale(1.03);
 }
 
-.container {
+body .container {
   margin-top: 9vh;
   width: 100%;
   height: 100%;
@@ -134,92 +124,65 @@ header nav .border a{
   overflow: scroll;
 }
 
-.square h1 {
+body .square h1 {
   text-align: center;
   font-size: 15px;
 }
 
-
-.group{
-  margin-top: -1vh;
-}
-
-.square a {
+body .container .square a {
   text-decoration: none;
   font-size: 15px;
 }
 
-
-.container .square {
+body .container .square {
   margin: 50px; 
 }
 
-.white{
-  padding: 10px;
-  transform: scale(1);
-  margin-top: -10vh;
-  margin-bottom: -10vh;
-  width: 40vh;
-  height: 20vh;
-  border-radius: 10px;
-  transition: box-shadow 0.5s ease, transform 0.5s ease;
-}
-
 @media screen and (max-width: 600px) {
-.square{
-  height: 55vh;
-  width: 58vh;
-  margin-bottom: 1vh;
+    body .container .square{
+      height: 55vh;
+      width: 58vh;
+      margin-bottom: 3vh;
+    }
+
+    body .container{
+      height: 90%;
+    }
+
+    body .container .square h1{
+      font-size: 10px;
+    }
+
+    body .container .square p{
+      font-size: 10px;
+    }
+
+    body header nav .border{
+      width: 50px;
+      height: 25px;
+    }
+
+    body header nav .border a{
+      font-size: 8px;
+    }
+
+    body header{
+      height: 8vh;
+    }
+
+    body .container .square .link a{
+      font-size: 10px;
+    }
+
+    body header {
+      padding: 10px;
+    }
+
+    body .container .square .link{
+      height: 30px;
+      width: 80px;
+    }
 }
 
-.border{
-  width: 50px;
-  height: 25px;
-}
-
-.border a{
-  font-size: 8px;
-}
-
-.square h1{
-  font-size: 10px;
-}
-
-.square p{
-  font-size: 10px;
-}
-
-header nav .border a{
-  font-size: 8px;
-}
-
-header{
-  height: 8vh;
-}
-
-.link a{
-  font-size: 10px;
-}
-
-.link{
-  height: 30px;
-  width: 80px;
-}
-}
-
-.container .square h1:hover{
-  color: blue;
-}
-  
-
-@keyframes animation_square {
-  0%{
-    opacity: 0%;
-  }
-
-  100%{
-    opacity: 100%;
-  }
-}
 
 

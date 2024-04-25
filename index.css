@@ -9,30 +9,84 @@ html, body {
   background-color: rgb(255, 255, 255);
 }
 
-
-.border a{
-  color: #000;
-  font-size: 15px;
-}
-
 html {
   background-color: rgb(255, 255, 255);
 }
 
-.border{ 
+header nav .border{ 
   display: flex;
   align-items: center;
   justify-content: center;
   background-color:rgb(255, 255, 255);
   border-radius: 10px;
   margin-left: 3vh;
-  width: 150px;
+  width: 120px;
   height: 30px;
 }
+
+header nav .border a{
+  color: #000;
+}
+
+
 
 body {
   display: flex;
   flex-direction: row;
+  overflow: auto;
+  scrollbar-width: thin; 
+  scrollbar-color: transparent transparent; 
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+
+body .image-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+body .image-body .image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  height: 430px;
+  width: 350px;
+  transition: 1s;
+}
+
+body .image-body .image img{
+  height: 100%;
+  width: 100%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+body .image-body .image img:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0.2, 0.2, 0.2, 0.5);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+body .image-body p{
+  margin-top: -10px;
+  font-size: 20px;
+  transition: 1s;
 }
 
 header {
@@ -48,127 +102,93 @@ header {
   z-index: 100;
 }
 
-header img {
+body header img {
   width: 4.5vh;
 }
 
-header nav {
+body header nav {
   display: flex;
 }
 
-header nav a {
+body header nav a {
   padding: 7px;
   text-decoration: none;
   font-size: 2.2vh;
 }
 
-header .logo {
+body header .logo a{
   font-family: Calibri;
   font-size: 3vh;
 }
 
-header a {
+body header a {
   text-decoration: none;
 }
 
-header nav a:hover {
+body header nav a:hover {
   color: blue;
 }
 
 body .square-one{
-  width: 100%;
+  width: 50%;
   height: 100%;
   background-color: rgb(255, 255, 255);
-}
-
-.square-one {
   animation: animation_square 3s;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20vh;
-  background-color: rgb(254, 255, 254);
+  
 }
 
-.text:hover{
+
+body .square-one .text:hover{
   box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
   transform: scale(1.03);
   transition: 1s;
 }
 
-.square-two {
-  background-color: rgb(255, 255, 255);
-}
-
-.text{
+body .square-one .text{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 30px;
-  height: 64%;
-  width: 45%;
+  height: 400px;
+  width: 400px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
-.text h1{
+body .square-one .text h1{
   margin-top: 5%;
 }
 
-.text p{
+body .square-one .text p{
   margin-top: 5%;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 
-.icons{
+body .square-one .text .icons{
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
-  margin-right: 10px;
-}
-
-.text h1{
-  font-size: 170%;
-}
-
-.text .icons i{
-  color: black;
-  margin-top: 10%;
-  padding-left: 4%;
-  margin-left: 1vh;
-  font-size: 50px;
-  width: 40px;
-  height: 40px;
-}
-
-.square-two {
-  animation: animation_square 2.5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   background-color: rgb(255, 255, 255);
 }
 
-.square-two img {
-  margin-top: 6vh;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  transform: scale(1);
-  transition: box-shadow 0.5s ease, transform 0.5s ease;
+body .square-one .text .icons a img{
+  margin-left: 1vh;
+  height: 45px;
+  width: 45px;
 }
 
-.square-two img:hover {
-  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
-  transform: scale(1.05);
+body .square-one .text h1{
+  font-size: 170%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -179,89 +199,75 @@ body .square-one{
     }
   }
 
-  .square-one{
-    margin-top: 30vh;
-  }
 
-  .square-one,
-  .square-two {
+body .image-body{
+  width: 100%;
+  
+}
+
+body .image-body .image{
+  margin-top: 10vh;
+  width: 99%;
+  height: 99%;
+  background-color: rgb(255, 255, 255);
+}
+
+body .image-body p{
+  margin-top: -3vh;
+  font-size: 15px;
+}
+
+  body .square-one {
+    margin-top: 0vh;
     width: 100%;
     margin: 0 auto 20px;
     padding: 30px;
   }
+  
 
-  .border{
+  body header nav .border{
     width: 50px;
     height: 25px;
   }
 
-  .border a{
+  body header nav .border a{
     font-size: 8px;
   }
 
-  .icons{
-    margin-top: 16px;
-  }
-
-  .text .icons a i img{
-    height: 7px;
-    width: 7px;
-  }
-
-  
-    
-
-
-  header {
+  body header {
     padding: 10px;
+    height: 43.5px;
   }
 
-
-
- 
-
-  header .logo {
+  body header .logo {
     font-size: 2.5vh;
   }
 
-  .text h1 {
-    font-size: 17px;
+  body .square-one .text h1 {
+    font-size: 13px;
   }
 
-  .text{
-    margin-top: 14vh;
+  body .square-one .text p{
+    font-size: 13px;
+  }
+
+  body .square-one .text{
+    margin-top: 0vh;
     height: 70vh;
-    width: 95%;
+    width: 99%;
   }
 
-  .square-one p{
+  body .square-one p{
     font-size: 13px;
     line-height: 18px;
   }
 
-  .square-two{
-    margin-top: 1vh;
-  }
-
-  header nav a {
+  body header nav a {
     font-size: 1.8vh;
   }
-}
 
-.square-two span {
-  margin-top: 20px;
-}
-
-.square-two span:hover {
-  color: blue;
-}
-
-@keyframes animation_square {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
+  body .square-one .text .icons a img{
+    height: 30px;
+    width: 30px;
   }
 }
