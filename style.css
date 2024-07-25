@@ -110,7 +110,7 @@ body .right .project{
     border-radius: 10px;
     margin-top: 2.5vh;
     width: 68vw;
-    height: 30vh;
+    height: 40vh;
     border: 1px solid black;
     
 }
@@ -213,7 +213,14 @@ body .right .final{
     }
 
     body .left .contact{
-        margin-top: 8vh;
+        margin-top: 11vh;
+        width: 30vw;
+        height: 17vh;
+        background-color: rgb(68, 67, 67);
+    }
+
+    body .left .languages{
+        margin-top: 1vh;
         width: 30vw;
         height: 17vh;
         background-color: rgb(68, 67, 67);
