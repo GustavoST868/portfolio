@@ -168,6 +168,17 @@ body .right .final{
         background-color: rgb(68, 67, 67);
     }
 
+    body .left .box-img-name img{
+        margin-right: 5vw;
+        width: 80px;
+        height: 80px;
+    }
+
+    body .left .box-img-name h1{
+        color: aliceblue;
+        font-size: 15px;
+    }
+
     body .left .about{
         margin-top: 5vh;
         width: 100vw;
@@ -193,23 +204,11 @@ body .right .final{
         margin-top: 2.5vh;
         width: 90vw;
         height: 20vh;
-        border: 1px solid black;
-        
+        border: 1px solid black; 
     }
 
     body .right .project p{
         font-size: 0px;
-    }
-
-    body .left .box-img-name img{
-        margin-right: 5vw;
-        width: 80px;
-        height: 80px;
-    }
-
-    body .left .box-img-name h1{
-        color: aliceblue;
-        font-size: 15px;
     }
 
     body .left .contact{
